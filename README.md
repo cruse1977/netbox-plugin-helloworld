@@ -11,7 +11,7 @@ git clone https://github.com/cruse1977/netbox-plugin-helloworld.git
 source /opt/netbox/venv/bin/activate
 python3 setup.py install
 
-edit /opt/netbox/netbox/netbox/configuration.py and add 'netbox_plugin_helloworld' to INSTALLED_PLUGINS = []
+edit /opt/netbox/netbox/netbox/configuration.py and add 'netbox_plugin_helloworld' to PLUGINS = []
 restart netbox,netbox-rq
 ```
 
